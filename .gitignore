@@ -10,6 +10,10 @@
 # dependencies
 /node_modules
 
+# logs
+/.github
+/public
+
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
@@ -30,6 +34,7 @@ speed-measure-plugin*.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+/e2e
 
 # misc
 /.sass-cache
