@@ -8,5 +8,6 @@ export const environment = {
     messagingSenderId: "800298863071",
     appId: "1:800298863071:web:6945b2db5de5a853835c6a",
     measurementId: "G-JSEBE5JR84"
-  }
+  },
+  hostFirebase:'https://hdp-game-default-rtdb.firebaseio.com/'
 };
