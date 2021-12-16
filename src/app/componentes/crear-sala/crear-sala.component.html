@@ -1,0 +1,11 @@
+<form class="shadow container-sm rounded">
+  <div style="text-align: center; padding: 5px;">
+    <h1>Nueva sala</h1>
+  </div>
+  <div class="d-grid gap-2">
+    <input type="text" class="form-control" id="usuarioInput" placeholder="Escribí un nombre" name="nombre" [(ngModel)]="nombre">
+    <button type="button" class="btn btn-danger" (click)="crear()">Crear</button>
+    <button type="button" class="btn btn-dark" (click)="volver()">Volver</button>
+  </div>
+</form>
+

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrincipalComponent implements OnInit {
 
+  nav : string = 'home';
+
   constructor() { }
 
   ngOnInit(): void {
